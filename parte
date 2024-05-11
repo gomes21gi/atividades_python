@@ -1,0 +1,259 @@
+# 1)
+# valor1 = float(input("Digite o primeiro valor: "))
+# valor2 = float(input("Digite o segundo valor: "))
+# soma = valor1 + valor2
+# if soma > 10:
+#     print("A soma é maior que 10 e é igual a:", soma)
+
+# 2)
+# valorA = float(input("Digite o valor de A: "))
+# valorB = float(input("Digite o valor de B: "))
+# valorC = float(input("Digite o valor de C: "))
+# if valorA + valorB < valorC:
+#     print("A soma de A + B é menor que C.")
+# else:
+#     print("A soma de A + B não é menor que C.")
+
+# 3)
+# nome = input("Digite o nome: ")
+# sexo = input("Digite o sexo (F para feminino, M para masculino): ").upper()
+# estado_civil = input("Digite o estado civil (CASADA, SOLTEIRA, DIVORCIADA, VIÚVA): ").upper()
+
+# if sexo == "F" and estado_civil == "CASADA":
+#     tempo_casada = int(input("Digite o tempo de casada (em anos): "))
+#     print(nome, "é uma mulher casada há", tempo_casada, "anos.")
+# else:
+#     print(nome, "não é uma mulher casada.")
+
+# 4)
+# X = 1
+# A = 3
+# B = 5
+# C = 8
+# D = 7
+
+# expressao1 = not (X > 3)
+# print("Expressão 1:", expressao1)
+# expressao2 = (X < 1) and not (B > D)
+# print("Expressão 2:", expressao2)
+# expressao3 = not (D < 0) and (C > 5)
+# print("Expressão 3:", expressao3)
+# expressao4 = not (X > 3) or (C < 7)
+# print("Expressão 4:", expressao4)
+# expressao5 = (A > B) or (C > B)
+# print("Expressão 5:", expressao5)
+# expressao6 = (X >= 2)
+# print("Expressão 6:", expressao6)
+# expressao7 = (X < 1) and (B >= D)
+# print("Expressão 7:", expressao7)
+
+# 5) 1)
+# numero1 = int(input("Digite o primeiro número inteiro: "))
+# numero2 = int(input("Digite o segundo número inteiro: "))
+# maior_numero = max(numero1, numero2)
+# menor_numero = min(numero1, numero2)
+# diferenca = maior_numero - menor_numero
+# print("A diferença entre o maior e o menor número é:", diferenca)
+
+# 5) 2)
+# numero = int(input("Digite o número: "))
+# if numero <0:
+#   numero = numero * -1
+# print("O valor positivo do número fornecido é:", numero)
+
+# 5) 3)
+# numero1 = int(input("Digite o primeiro número: "))
+# numero2 = int(input("Digite o segundo número: "))
+# numero3 = int(input("Digite o terceiro número: "))
+# numero4 = int(input("Digite o segundo número: "))
+
+# media = (numero1 + numero2 + numero3 + numero4) / 4
+
+# if media >= 5:
+#   print("Parabens! Sua média é: ", media)
+# else:
+#   print("Não foi dessa vez, sua média foi:", media)
+
+# 5) 4)
+# divisiveis_por_2_e_3 = []
+
+# numero1 = int(input("Digite o primeiro número: "))
+# numero2 = int(input("Digite o segundo número: "))
+# numero3 = int(input("Digite o terceiro número: "))
+# numero4 = int(input("Digite o quarto número: "))
+
+# if numero1 % 2 == 0 and numero1 % 3 == 0:
+#     divisiveis_por_2_e_3.append(numero1)
+# if numero2 % 2 == 0 and numero2 % 3 == 0:
+#     divisiveis_por_2_e_3.append(numero2)
+# if numero3 % 2 == 0 and numero3 % 3 == 0:
+#     divisiveis_por_2_e_3.append(numero3)
+# if numero4 % 2 == 0 and numero4 % 3 == 0:
+#     divisiveis_por_2_e_3.append(numero4)
+# print("Números divisíveis por 2 e 3:", divisiveis_por_2_e_3)
+
+# 5) 5)
+# divisiveis_por_2_ou_3 = []
+
+# numero1 = int(input("Digite o primeiro número: "))
+# numero2 = int(input("Digite o segundo número: "))
+# numero3 = int(input("Digite o terceiro número: "))
+# numero4 = int(input("Digite o quarto número: "))
+
+# if numero1 % 2 == 0 or numero1 % 3 == 0:
+#   divisiveis_por_2_ou_3.append(numero1)
+# if numero2 % 2 == 0 or numero2 % 3 == 0:
+#   divisiveis_por_2_ou_3.append(numero2)
+# if numero3 % 2 == 0 or numero3 % 3 == 0:
+#   divisiveis_por_2_ou_3.append(numero3)
+# if numero4 % 2 == 0 or numero4 % 3 == 0:
+#    divisiveis_por_2_ou_3.append(numero4)
+# print("Números divisíveis por 2 ou 3:", divisiveis_por_2_ou_3)
+
+# 5) 6)
+# idade = int(input("Digite a idade do nadador: "))
+
+# if idade >= 5 and idade <= 7:
+#     categoria = "Infantil A"
+# elif idade >= 8 and idade <= 10:
+#     categoria = "Infantil B"
+# elif idade >= 11 and idade <= 13:
+#     categoria = "Juvenil A"
+# elif idade >= 14 and idade <= 17:
+#     categoria = "Juvenil B"
+# elif idade >= 18 and idade <= 60:
+#     categoria = "Adulto"
+# else:
+#     categoria = "Senior"
+
+# print("O nadador está na categoria:", categoria)
+
+# 5) 7)
+# import math
+
+# a = float(input("Digite o coeficiente 'a': "))
+# b = float(input("Digite o coeficiente 'b': "))
+# c = float(input("Digite o coeficiente 'c': "))
+
+# if a == 0:
+#     print("Isso não é uma equação do segundo grau (a = 0).")
+# else:
+#     delta = b**2 - 4*a*c
+
+#     if delta > 0:
+#         raiz1 = (-b + math.sqrt(delta)) / (2*a)
+#         raiz2 = (-b - math.sqrt(delta)) / (2*a)
+#         print("As raízes da equação são:", raiz1, "e", raiz2)
+#     elif delta == 0:
+#         raiz = -b / (2*a)
+#         print("A equação possui uma raiz dupla:", raiz)
+#     else:
+#         print("A equação não possui raízes reais.")
+
+# 5) 8)
+# produtos = {
+#     "Produto A": 25,
+#     "Produto B": 40,
+#     "Produto C": 20,
+#     "Produto D": 35
+# }
+
+# print("Produtos abaixo do estoque mínimo (30 unidades):")
+# for produto, quantidade in produtos.items():
+#     if quantidade < 30:
+#         print(produto)
+
+# 5) 9)
+# numero = int(input("Digite um número inteiro: "))
+
+# if numero % 2 == 0:
+#     print("O número", numero, "é par.")
+# else:
+#     print("O número", numero, "é ímpar.")
+
+# 5) 9) 1)
+# numero1 = float(input("Digite o primeiro número: "))
+# numero2 = float(input("Digite o segundo número: "))
+
+# if numero1 > numero2:
+#     print("O primeiro número é maior:", numero1)
+# elif numero2 > numero1:
+#     print("O segundo número é maior:", numero2)
+# else:
+#     print("Os números são iguais.")
+
+# 5) 10)
+# valor1 = float(input("Digite o primeiro valor: "))
+# valor2 = float(input("Digite o segundo valor: "))
+
+# temp = valor1
+# valor1 = valor2
+# valor2 = temp
+
+# print("O primeiro valor agora é:", valor1)
+# print("O segundo valor agora é:", valor2)
+
+# 5) 11)
+# salario_bruto = float(input("Digite o salário bruto: "))
+
+# salario_minimo = 1100.00
+
+# if salario_bruto <= 3 * salario_minimo:
+#     contribuicao_inss = salario_bruto * 0.08
+# else:
+#     contribuicao_inss = 3 * salario_minimo * 0.08
+
+# salario_liquido = salario_bruto - contribuicao_inss
+
+# print("Contribuição ao INSS:", contribuicao_inss)
+# print("Salário líquido:", salario_liquido)
+
+# 6) 
+# def calcular_inss(salario_bruto):
+#   if salario_bruto <= 1045:
+#       return salario_bruto * 0.075
+#   elif salario_bruto <= 2089.60:
+#       return salario_bruto * 0.09
+#   elif salario_bruto <= 3134.40:
+#       return salario_bruto * 0.12
+#   elif salario_bruto <= 6101.06:
+#       return salario_bruto * 0.14
+#   else:
+#       return 6101.06 * 0.14
+
+# def calcular_irrf(salario_liquido):
+#   if salario_liquido <= 900:
+#       return 0
+#   elif salario_liquido <= 1800:
+#       return salario_liquido * 0.15 - 135
+#   else:
+#       return salario_liquido * 0.275 - 360
+
+# def calcular_salario_liquido(salario_bruto):
+#   inss = calcular_inss(salario_bruto)
+#   salario_liquido = salario_bruto - inss
+#   irrf = calcular_irrf(salario_liquido)
+#   salario_liquido -= irrf
+#   return salario_liquido
+
+# salario_bruto = float(input("Digite o salário bruto: "))
+# salario_liquido = calcular_salario_liquido(salario_bruto)
+# print("Salário líquido:", salario_liquido)
+
+# # 7)
+# def verificar_aprovacao(notas_provas, notas_trabalhos):
+#   media_provas = sum(notas_provas) / len(notas_provas)
+#   media_trabalhos = sum(notas_trabalhos) / len(notas_trabalhos)
+#   media_final = 0.8 * media_provas + 0.2 * media_trabalhos
+#   if media_final >= 6:
+#       return "Aprovado"
+#   else:
+#       return "Não Aprovado"
+
+# notas_provas = [float(input("Digite a nota da P1: ")), float(input("Digite a nota da P2: ")),
+#               float(input("Digite a nota da P3: ")), float(input("Digite a nota da P4: "))]
+# notas_trabalhos = [float(input("Digite a nota do T1: ")), float(input("Digite a nota do T2: ")),
+#                  float(input("Digite a nota do T3: ")), float(input("Digite a nota do T4: "))]
+
+# resultado = verificar_aprovacao(notas_provas, notas_trabalhos)
+# print("Resultado:", resultado)
