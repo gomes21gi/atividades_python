@@ -1,0 +1,124 @@
+# 1)
+# numero1 = float(input("Digite o primeiro número: "))
+# numero2 = float(input("Digite o segundo número: "))
+
+# if numero1 > numero2:
+#     print("O maior número é:", numero1)
+# elif numero2 > numero1:
+#     print("O maior número é:", numero2)
+# else:
+#     print("Os números são iguais.")
+
+# 2)
+# numero1 = float(input("Digite o primeiro número: "))
+# numero2 = float(input("Digite o segundo número: "))
+# numero3 = float(input("Digite o terceiro número: "))
+
+# if numero1 >= numero2 and numero1 >= numero3:
+#     print("O maior número é:", numero1)
+# elif numero2 >= numero1 and numero2 >= numero3:
+#     print("O maior número é:", numero2)
+# else:
+#     print("O maior número é:", numero3)
+
+# 3)
+# valor1 = float(input("Digite o primeiro valor: "))
+# valor2 = float(input("Digite o segundo valor: "))
+# valor3 = float(input("Digite o terceiro valor: "))
+
+# valores = [valor1, valor2, valor3]
+
+# valores.sort()
+
+# print("Valores em ordem crescente:", valores)
+
+# 4)
+# quantidade_maças = int(input("Digite o número de maçãs compradas: "))
+
+# if quantidade_maças < 12:
+#     custo_total = quantidade_maças * 1.30
+# else:
+#     custo_total = quantidade_maças * 1.00
+
+# print("O custo total da compra é: R$", custo_total)
+
+# 5)
+# valor_emprestimo = float(input("Digite o valor do empréstimo: "))
+# numero_parcelas = int(input("Digite o número de parcelas: "))
+# salario_solicitante = float(input("Digite o salário do solicitante: "))
+
+# valor_parcelas = valor_emprestimo / numero_parcelas
+
+# limite_parcelas = salario_solicitante * 0.30
+
+# if valor_parcelas <= limite_parcelas:
+#     print("Empréstimo aprovado!")
+# else:
+#     print("Empréstimo não aprovado. O valor das parcelas excede 30% do salário")
+
+# 6)
+# def calcular_comissao(nome_corretor, valor_venda):
+#     if valor_venda > 50000:
+#         comissao = valor_venda * 0.12
+#     elif valor_venda >= 30000:
+#         comissao = valor_venda * 0.095
+#     else:
+#         comissao = valor_venda * 0.07
+
+#     return comissao
+
+# def main():
+#     nome_corretor = input("Digite o nome do corretor: ")
+#     valor_venda = float(input("Digite o valor da venda: R$"))
+
+#     comissao = calcular_comissao(nome_corretor, valor_venda)
+
+#     print(f"A comissão do corretor {nome_corretor} é R${comissao:.2f}.")
+
+# if __name__ == "__main__":
+#     main()
+
+# 7)
+# nota1 = float(input("Digite a primeira nota: "))
+# nota2 = float(input("Digite a segunda nota: "))
+# nota3 = float(input("Digite a terceira nota: "))
+# nota4 = float(input("Digite a quarta nota: "))
+
+# media = (nota1+nota2+nota3+nota4)/4
+# if media >=7:
+#       print('aprovado')
+# else:
+#       exame = float(input('nota de exame'))
+#       mediae = (media + exame)/2
+#       if mediae>5:
+#         print('aprovado no exame')
+#       else:
+#         print('reprovado')
+
+# 8)
+# valor_hora = float(input("Informe o valor da hora: "))
+# horas_mes = float(input("Informe as horas trabalhadas no mês: "))
+
+# # Caso ultrapasse 160 horas (4 semanas * 40 horas), recebe hora extra
+# if horas_mes > 160:
+#     salario = (horas_mes - 160) * valor_hora * 1.5 + (160) * valor_hora
+# else:
+#     salario = horas_mes * valor_hora
+
+# print("Salário total: R$", salario)
+
+# 9)
+# lado1 = float(input("Digite o comprimento do primeiro lado: "))
+# lado2 = float(input("Digite o comprimento do segundo lado: "))
+# lado3 = float(input("Digite o comprimento do terceiro lado: "))
+
+# if lado1 < lado2 + lado3 and lado2 < lado1 + lado3 and lado3 < lado1 + lado2:
+#     if lado1 == lado2 == lado3:
+#         print("O triângulo é equilátero.")
+#     elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+#         print("O triângulo é isósceles.")
+#     else:
+#         print("O triângulo é escaleno.")
+# else:
+#     print("Os lados fornecidos não formam um triângulo.")
+
