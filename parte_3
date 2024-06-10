@@ -1,0 +1,15 @@
+# 1)
+# i = 1
+# soma = 0 
+# while i <= 100:
+#   print(i)
+#   soma = soma + i
+#   i = i + 1 #ou i+=1
+# print(soma)
+
+# 2)
+# soma = 0
+# continuar = str(input('deseja informar númerso S/N ')) .upper()
+# while continuar == 'S':
+#   num = int(input('informe número'))
+#   if num >0:
